@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #333;
+  }
+  
+  header.hero {
+    background: linear-gradient(120deg, #4c8bf5, #6f73ff);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  header.hero h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+  }
+  
+  header.hero p {
+    font-size: 1.2rem;
+  }
+  
+  .services {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    color: #4c8bf5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .service-item {
+    background: rgb(33, 31, 31);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-item img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .service-item h3 {
+    color: #6f73ff;
+    margin: 0.5rem 0;
+  }
+  
+  .how-it-works {
+    background-color: #6f73ff;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .how-it-works h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  @media (max-width: 768px) {
+    header.hero h1 {
+      font-size: 2rem;
+    }
+  
+    .services h2 {
+      font-size: 2rem;
+    }
+  }
+  

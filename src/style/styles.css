@@ -23,7 +23,10 @@ header {
 
 header .logo h1 {
     font-size: 1.5rem;
+    font-family: "Kelly Slab", sans-serif;
+    
 }
+
 
 header nav ul {
     list-style: none;
