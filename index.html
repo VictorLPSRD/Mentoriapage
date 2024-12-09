@@ -41,9 +41,15 @@
     </header>
 
     <section id="hero">
-        <h2>Impulsione sua carreira em <br><span>tecnologia</span></h2>
-        <p>Mentoria especializada para alcançar o próximo nível.</p>
-        <a href="#contato" class="cta-button">Entre em contato</a>
+        <video autoplay muted loop id="background-video">
+            <source src="fundo.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+        <div class="content">
+            <h2>Impulsione sua carreira em <br><span>tecnologia</span></h2>
+            <p>Mentoria especializada para alcançar o próximo nível.</p>
+            <a href="#contato" class="cta-button">Entre em contato</a>
+        </div>
     </section>
 
     <section id="sobre">
@@ -104,7 +110,7 @@
             </div>
         </div>
         <div class="text-center mt-3">
-            <button class="btn btn-primary">Ver mais</button>
+            <a href="src/html/colaboradores.html" class="btn btn-primary">Ver mais</a>
         </div>
         <br>
         <img id="" src="./src/img/swords_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="Icone de link de suporte" />
@@ -120,7 +126,7 @@
             <li>Preparação para entrevistas de emprego na área de TI</li>
             <li>Desafios de codificação</li>
             <li>Criar Netwoking</li>
-            <a href="#contato">Como Funciona</a>
+            <a href="src/html/Serviços.html">Como Funciona</a>
         </ul>
         <img id="flexa" src="./src/img/double_arrow_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
             alt="Icone de link de suporte" />
@@ -165,43 +171,40 @@
     <section id="CAR">
 
     </section>
+<footer id="contato">
+    <h3>Entre em Contato</h3>
+    <form id="contactForm" action="https://formsubmit.co/62338305c05685fbff1266506adb64fc" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu nome..." required />
 
-    <footer id="contato">
-        <h3>Entre em Contato</h3>
-        <form id="contactForm"
-        action="https://formsubmit.co/62338305c05685fbff1266506adb64fc"
-        method="post">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" placeholder="Digite seu nome..." required />
+        <label for="name">Gmail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu Gmail..." required />
 
-            <label for="name">Gmail:</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu Gmail..." required />
+        <label for="cell">Telefone:</label>
+        <input type="number" id="cell" name="cell" placeholder="Digite seu Telefone..." required />
 
-            <label for="cell">Telefone:</label>
-            <input type="number" id="cell" name="cell" placeholder="Digite seu Telefone..." required />
+        <label for="message">Mensagem:</label>
+        <textarea name="message" id="message" placeholder="Escreva sua mensagem aqui..." required></textarea>
+        <input type="hidden" name="_captcha" value="false">
 
-            <label for="message">Mensagem:</label>
-            <textarea name="message" id="message" placeholder="Escreva sua mensagem aqui..." required></textarea>
-            <input type="hidden" name="_captcha" value="false">
-
-            <button type="submit">Enviar</button>
-        </form>
-        <div id="redes-itens">
-            <p>Nossas redes sociais</p>
-            <div class="social-icons">
-                <a href="https://www.instagram.com/rd_joao12?igsh=dDZicTQ3eHRoOW0%3D&utm_source=qr" class="social-icon">
-                    <img id="insta" src="src/img/insta.svg" alt="">
-                </a>
-                <a href="#" class="social-icon">
-                    <img id="disc" src="src/img/disc.svg" alt="">
-                </a>
-                <a href="#" class="social-icon">
-                    <img id="whats" src="src/img/whats.svg" alt="">
-                </a>
-            </div>
+        <button type="submit">Enviar</button>
+    </form>
+    <div id="redes-itens">
+        <p>Nossas redes sociais</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/rd_joao12?igsh=dDZicTQ3eHRoOW0%3D&utm_source=qr" class="social-icon">
+                <img id="insta" src="src/img/insta.svg" alt="">
+            </a>
+            <a href="#" class="social-icon">
+                <img id="disc" src="src/img/disc.svg" alt="">
+            </a>
+            <a href="#" class="social-icon">
+                <img id="whats" src="src/img/whats.svg" alt="">
+            </a>
         </div>
-        <p>&copy; 2024 GuiaDigital. Todos os direitos reservados.</p>
-    </footer>
+    </div>
+    <p>&copy; 2024 GuiaDigital. Todos os direitos reservados.</p>
+</footer>
 
     <script src="script.js"></script>
     <!-- Bootstrap JS Bundle -->
