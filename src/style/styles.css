@@ -115,7 +115,7 @@ header nav ul li a {
     left: 0%;
     opacity: 0;
     background: #fff;
-    box-shadow: 0 0 50px 30px #ffffff23;
+    box-shadow: 0 0 70px 40px #ffffff06;
     -webkit-transform: skewX(-20deg);
     -moz-transform: skewX(-20deg);
     -ms-transform: skewX(-20deg);
@@ -189,18 +189,6 @@ header nav ul li a {
 #sobre span{
     color: rgb(0, 51, 255);
 }
-/* Responsividade */
-@media (max-width: 600px) {
-    #sobre {
-        padding: 15px 20px;
-        /* Ajusta o padding em telas menores */
-    }
-
-    #sobre p {
-        font-size: 16px;
-       
-    }
-}
 
 #servicos ul {
     list-style: none;
@@ -232,8 +220,6 @@ header nav ul li a {
     color: #fff;
     background-color: #002f61;
   }
-
-
 
 /* footer */
 footer {
@@ -311,9 +297,6 @@ p {
     color: #ffffff;
 }
 
-
-
-
 /* carousel */
 .carousel-section {
     margin: 20px auto;
@@ -339,16 +322,6 @@ p {
 
   .carousel-item.expanded img {
     height: 600px; /* Altura expandida ao clicar */
-  }
-
-  @media (max-width: 768px) {
-    .carousel-item img {
-      height: 200px; /* Altura menor em telas pequenas */
-    }
-
-    .carousel-item.expanded img {
-      height: 400px; /* Altura expandida em telas pequenas */
-    }
   }
 
 #carousel-section p{

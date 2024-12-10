@@ -1,0 +1,80 @@
+ /* REPONSIVIDADE DA MENU todas as telas*/
+ @media (max-width: 1024px) {
+     .cabecalho {
+         justify-content: center;
+         flex-direction: column;
+         padding: 50px 0;
+         gap: 15px;
+     }
+
+     .cabecalho .menu li a {
+         padding: 15px;
+     }
+ }
+
+ /* ========================================    */
+
+ /* Responsividade sobre da tela main */ 
+ @media (max-width: 600px) {
+     #sobre {
+         padding: 15px 20px;
+         /* Ajusta o padding em telas menores */
+     }
+
+     #sobre p {
+         font-size: 16px;
+
+     }
+ }
+
+ /* ================================================= */
+
+ /* Responsivadade carousel-item tela main*/
+ @media (max-width: 768px) {
+     .carousel-item img {
+         height: 200px;
+         /* Altura menor em telas pequenas */
+     }
+
+     .carousel-item.expanded img {
+         height: 400px;
+         /* Altura expandida em telas pequenas */
+     }
+ }
+
+ /* ==================================================== */
+
+ /* Reponsividade da tela servicos  */
+ @media (max-width: 768px) {
+     .list_bnt .button {
+         font-size: 18px;
+         padding: 15px 30px;
+     }
+
+     .list_bnt .explanation {
+         font-size: 16px;
+     }
+
+     .input-group2 {
+         font-size: 20px;
+     }
+ }
+
+ @media (max-width: 480px) {
+     .list_bnt h2 {
+         font-size: 24px;
+     }
+
+     .input-group2 {
+         font-size: 18px;
+     }
+ }
+ @media (max-width: 768px) {
+    header.hero h1 {
+      font-size: 2rem;
+    }
+  
+    .services h2 {
+      font-size: 2rem;
+    }
+  }
